@@ -18,10 +18,13 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/fonts/fontawesome5-overrides.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.css">
+    <link rel="stylesheet" href="assets/css/Particle-JS---Background-Fixed-1.css">
+    <link rel="stylesheet" href="assets/css/Particle-JS---Background-Fixed.css">
 </head>
 
 <body>
-    <nav class="navbar navbar-light navbar-expand-lg fixed-top" id="mainNav">
+    <nav class="navbar navbar-light navbar-expand-lg fixed-top" data-aos="fade-down" data-aos-duration="50" data-aos-delay="200" id="mainNav">
         <div class="container-fluid"><a class="navbar-brand" href="index.html">ANDRIJA</a><button data-toggle="collapse" data-target="#navbarResponsive" class="navbar-toggler" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars"></i></button>
             <div
                 class="collapse navbar-collapse" id="navbarResponsive">
@@ -41,9 +44,9 @@
         <div class="overlay"></div>
         <div class="container">
             <div class="row">
-                <div class="col-md-10 col-lg-8 mx-auto">
+                <div class="col-md-10 col-lg-8 col-xl-8 offset-xl-2 mx-auto">
                     <div class="site-heading">
-                        <h1>About Me</h1><span class="subheading">This is what I do</span><a class="btn btn-outline-light" role="button" data-bs-hover-animate="jello" style="margin-top: 2rem;" href="#content">Go down&nbsp;<i class="fas fa-caret-down"></i></a></div>
+                        <h1 style="z-index: 999;">About Me</h1><span class="subheading" style="z-index: 999;">This is what I do</span><a class="btn btn-outline-light" role="button" data-bs-hover-animate="jello" style="margin-top: 2rem;z-index: 999;" href="#content">Go down&nbsp;<i class="fas fa-caret-down"></i></a></div>
                 </div>
             </div>
         </div>
@@ -54,7 +57,8 @@
                 <p id="content">Hello, My name is Andrija Jovanovic, and I'm 19 years old developer from Serbia. I'm self-taught and my primary focus is python and web development.</p>
                 <p>I am comfortable with working on both Windows and various Linux distributions, with primary being Arch Linux and gentoo.</p>
                 <p>On this blog I'll be going over how I learned Linux and how I customize it to my liking.<br>Note: I am by no means expert and if anybody has better ways of doing things I would&nbsp;appreciate if that person would share the knowledge in
-                    form of blog article here on website.<br>This website is going to be generated with python and content can easily be added by writing markdown file and creating the&nbsp;<a href="#">pull request</a>&nbsp;on the websites repository.</p>
+                    form of blog article here on website.<br>This website is going to be generated with python and content can easily be added by writing markdown file and creating the&nbsp;<a class="text-left text-info" href="https://github.com/andrijaJ01/ssg-content.git"
+                        style="text-decoration: none;">pull request</a>&nbsp;on the websites repository. It's still work in progress so its still empty repository.</p>
             </div>
         </div>
     </div>
@@ -80,7 +84,9 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/bs-init.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.js"></script>
     <script src="assets/js/clean-blog.js"></script>
+    <script src="assets/js/Particle-JS---Background-Fixed.js"></script>
 </body>
 
 </html>
